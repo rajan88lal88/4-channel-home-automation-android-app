@@ -1,12 +1,15 @@
 #define ledPin 10
+//Pins Going to switches
 #define s1 5
 #define s2 4
 #define s3 3
 #define s4 2
+// pins going to ralays
 #define r1 10
 #define r2 11
 #define r3 12
 #define r4 13
+// pins reading switch pins(s1 is connected to t1, s2 to t2 and so on)
 #define t1 9
 #define t2 8
 #define t3 7
@@ -112,7 +115,7 @@ void loop() {
   t2_=digitalRead(t2);
   t3_=digitalRead(t3);
   t4_=digitalRead(t4);
-  
+  // for debugging on serial
   Serial.print(t1_);
   Serial.print("\t");
   Serial.print(t2_);
