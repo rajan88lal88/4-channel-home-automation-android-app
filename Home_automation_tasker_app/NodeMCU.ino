@@ -8,15 +8,15 @@
 #define Relay3            D5
 #define Relay4            D6
 
-#define WLAN_SSID       "YouCan'tSeeMe"             // Your SSID
-#define WLAN_PASS       "w!f!p@55w0rd"        // Your password
+#define WLAN_SSID       "SSID"             // Your SSID
+#define WLAN_PASS       "PASSWORD"        // Your password
 
 /************************* Adafruit.io Setup *********************************/
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
-#define AIO_USERNAME    "rajan88lal88"            // Replace it with your username
-#define AIO_KEY         "94b6ea8d41c64e0e8d589379eeb7f419"   // Replace with your Project Auth Key
+#define AIO_USERNAME    "USERNAME"            // Replace it with your username
+#define AIO_KEY         "AUTH_KEY"   // Replace with your Project Auth Key
 
 /************ Global State (you don't need to change this!) ******************/
 
