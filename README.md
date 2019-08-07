@@ -13,3 +13,5 @@ Note: To restore the backup of tasker, place the backup file in the folder "/Tas
 You will have to pair to the hc05 module and edit each task's bluetooth device to your hc05 module... currently it is sending the commands to my hc05 module so configure it for your module. For this go to each task> got to Bluetooth serial > tap the edit icon on top right next to configuratio> Tap show all bluetooth devices> Select your hc 05 module.
 
 Note: You can even change the command for each relay here.
+
+Added the code for NodeMCU which enables you to control the realys over internet using IFTTT.
