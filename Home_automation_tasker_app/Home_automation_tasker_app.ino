@@ -93,6 +93,8 @@ void loop() {
   w2_=digitalRead(t2);
   w3_=digitalRead(t3);
   w4_=digitalRead(t4);
+
+  //toggling pin if the value changes
   if(w1_!=w1)
   {
       w1=w1_;
@@ -118,11 +120,12 @@ void loop() {
   t2_=digitalRead(r2);
   t3_=digitalRead(r3);
   t4_=digitalRead(r4);
- 
+ //Reading Switch values
   s1_=digitalRead(s1);
   s2_=digitalRead(s2);
   s3_=digitalRead(s3);
   s4_=digitalRead(s4);
+  //togglling switch values if the switch is toggled.
   if(s1_!=ps1)
   {
       ps1=s1_;
